@@ -1,0 +1,7 @@
+#include <stdio.h>
+int get() {
+    return 10;
+}
+int main() {
+    printf("%d", get());
+}

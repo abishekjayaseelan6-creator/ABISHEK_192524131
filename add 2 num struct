@@ -1,0 +1,10 @@
+#include<stdio.h>
+struct add {
+    int a,b;
+};
+
+int main() {
+    struct add x;
+    scanf("%d %d",&x.a,&x.b);
+    printf("%d", x.a + x.b);
+}

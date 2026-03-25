@@ -1,0 +1,12 @@
+#include<stdio.h>
+struct dist {
+    int m,cm;
+};
+
+int main() {
+    struct dist d1,d2;
+    scanf("%d %d",&d1.m,&d1.cm);
+    scanf("%d %d",&d2.m,&d2.cm);
+
+    printf("%d m %d cm", d1.m+d2.m, d1.cm+d2.cm);
+}

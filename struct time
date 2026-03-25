@@ -1,0 +1,10 @@
+#include<stdio.h>
+struct time {
+    int h,m,s;
+};
+
+int main() {
+    struct time t;
+    scanf("%d %d %d",&t.h,&t.m,&t.s);
+    printf("%d:%d:%d",t.h,t.m,t.s);
+}

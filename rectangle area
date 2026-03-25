@@ -1,0 +1,10 @@
+#include<stdio.h>
+struct rect {
+    int l,b;
+};
+
+int main() {
+    struct rect r;
+    scanf("%d %d",&r.l,&r.b);
+    printf("%d", r.l * r.b);
+}

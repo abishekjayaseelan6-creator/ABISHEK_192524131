@@ -1,0 +1,12 @@
+#include<stdio.h>
+struct complex {
+    int real, img;
+};
+
+int main() {
+    struct complex c1, c2;
+    scanf("%d %d",&c1.real,&c1.img);
+    scanf("%d %d",&c2.real,&c2.img);
+
+    printf("%d + %di", c1.real+c2.real, c1.img+c2.img);
+}

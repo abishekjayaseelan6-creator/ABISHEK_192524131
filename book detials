@@ -1,0 +1,11 @@
+#include<stdio.h>
+struct book {
+    char name[20];
+    float price;
+};
+
+int main() {
+    struct book b;
+    scanf("%s %f", b.name, &b.price);
+    printf("%s %.2f", b.name, b.price);
+}
